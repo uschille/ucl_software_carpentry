@@ -50,15 +50,6 @@ If you do get stuck, first try searching on the internet
 (e.g. [stackoverflow.com](http://stackoverflow.com)) for solutions.  Or, try asking a fellow
 bootcamp attendee for help.
 
-Drop-in session
----------------
-
-We will be running a drop-in session for people that would like some help with setting up their
-laptop in advance of the training. You will have been advised as to when this will occur.
-
-All students should either attend this or ensure that they have a working git, python, and editor
-and shell installation by following the instructions bellow before the workshop.
-
 Eduroam
 -------
 
@@ -161,18 +152,10 @@ Again, install the appropriate package with apt-get or yum (`cmake`)
 SQLite3
 -------
 
-Install SQLite3 from your package manager. In Ubuntu the package is called sqlite3
+Install SQLite3 from your *python* package manager:
 
-Firefox
--------
-If Firefox is not the default browser in your Linux installation install it from your
-package manager.
-
-Firefox SQLite 3 add-on
------------------------
-
-Go into Firefox | Add-ons and search for *Sqlite*. Install the *SQLite Manager*.
-
+- Enthough Python has a graphical python manager
+- If not using enthought python, then `easy_install squlite3` or `pip install sqlite3` should work.
 
 Mac
 ===
@@ -317,16 +300,7 @@ The default terminal on OSX should also be sufficient. If you want a more advanc
 SQLite3
 -------
 
-OS X already ships SQLite3
-
-Firefox
--------
-Download from the [Firefox website](http://firefox.com/) and install
-
-Firefox SQLite 3 add-on
------------------------
-
-Go into Firefox | Add-ons and search for *Sqlite*. Install the *SQLite Manager*.
+Please follow the instructions for installing sqlite in the Linux section of this document.
 
 
 Windows
@@ -510,16 +484,4 @@ which svn
 SQLite3
 -------
 
-This software is available [here](http://www.sqlite.org/download.html).
-Windows users should select the *Precompiled Binaries for Windows, command-line shell*.
-
-Firefox
--------
-Download from the [Firefox website](http://firefox.com/) and install
-
-Firefox SQLite 3 add-on
------------------------
-
-Go into Firefox | Add-ons and search for *Sqlite*. Install the *SQLite Manager*.
-
-
+Please follow the instructions for sqlite in the Linux section of this document.
